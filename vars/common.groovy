@@ -12,3 +12,4 @@ else if("${stageName}" == "sonarqube")
   {
     sh "mvn sonar:sonar deploy"
   }
+}
